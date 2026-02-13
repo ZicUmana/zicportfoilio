@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Stephen Umana | Software Engineer & Conversion Specialist</title>
+    <link rel="icon" href="./images/portcode.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-code">&lt;/&gt;</span> ISAAC <span>U.</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#tech">Tech Stack</a></li>
+                <li><a href="#contact" class="btn btn-code">Let's Code</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-code">Software Engineer & Conversion Specialist</div>
+                <h1>Hi, I'm <span>Isaac Stephen Umana</span></h1>
+                <h2>I build high-performance applications that convert</h2>
+                <p>Full-stack software engineer with 2 years of experience building scalable web applications, combined with deep expertise in conversion rate optimization. I create technically excellent solutions that drive measurable business results.</p>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Isaac Stephen Umana - Software Engineer">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./images/use.jpeg" alt="Isaac coding">
+                </div>
+                
+                <div class="about-text">
+                    <h3>Full-Stack Engineer with a Conversion Mindset</h3>
+                    <p>I combine deep technical expertise in software engineering with data-driven conversion optimization strategies. My unique dual-specialization allows me to build applications that are not only technically robust but also optimized for maximum user engagement and conversion.</p>
+                    
+                    <div class="dual-expertise">
+                        <div class="expertise-card">
+                            <h3><i class="fas fa-code"></i> Software Engineering</h3>
+                            <p>Full-stack development with modern frameworks, scalable architecture, clean code practices, and performance optimization. I build everything from APIs to complex frontend applications.</p>
+                        </div>
+                        
+                        <div class="expertise-card">
+                            <h3><i class="fas fa-chart-line"></i> Conversion Optimization</h3>
+                            <p>Data-driven approach to improving user experiences, increasing engagement, and boosting conversion rates through analytics, and user psychology.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skills">
+                        <span class="skill-tag engineering">HTML/CSS</span>
+                        <span class="skill-tag engineering">React/Next.js</span>
+                        <span class="skill-tag engineering">Node.js</span>
+                        <span class="skill-tag engineering">Python</span>
+                        <span class="skill-tag engineering">PostgreSQL/MongoDB</span>
+                        <span class="skill-tag conversion">Analytics</span>
+                        <span class="skill-tag conversion">UX Optimization</span>
+                    </div>
+                    
+                    <a href="mailto:umanaisaac@gmail.com" class="btn" style="margin-top: 30px;">Work With Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 50px; color: var(--gray);">Technical implementations that drive business results. Each project combines engineering excellence with conversion optimization.</p>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="fullstack">Full-Stack Apps</button>
+                <button class="filter-btn" data-filter="conversion">Conversion Tools</button>
+                <button class="filter-btn" data-filter="saas">SaaS Products</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="fullstack conversion">
+                    <div class="portfolio-img">
+                        <img src="./images/naija.png" alt="Job Board Platform">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>NaijaHire Hub</h3>
+                        <p>We connect talented Nigerians with top employers across industries — remote and in-person roles, entry to senior levels.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag tech">React</span>
+                            <span class="portfolio-tag tech">Node.js</span>
+                            <span class="portfolio-tag tech">PostgreSQL</span>
+                        </div>
+                        <div class="cta">
+                            <a href="https://github.com/isaac-umana" class="btn btn-code btn-sm" target="_blank" rel="noopener">See Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="saas">
+                    <div class="portfolio-img">
+                        <img src="./images/estate.jpg" alt="E-commerce Platform">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>LuxeEstates E-commerce SaaS</h3>
+                        <p>Developed a e-commerce platform with Next.js, GraphQL API, and Stripe integration. Reduced checkout abandonment by 42% through UX optimization.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag tech">Next.js</span>
+                            <span class="portfolio-tag tech">GraphQL</span>
+                            <span class="portfolio-tag tech">Stripe</span>
+                            <span class="portfolio-tag">CRO</span>
+                        </div>
+                        <div class="cta">
+                            <a href="https://github.com/isaac-umana" class="btn btn-code btn-sm" target="_blank" rel="noopener">See Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="fullstack conversion">
+                    <div class="portfolio-img">
+                        <img src="./images/use me.png" alt="Landing Page Builder">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>ADINA-Lodge and Restaurant</h3>
+                        <p>Developed a responsive website for ADINA-Lodge and Restaurant using HTML, CSS, and JavaScript. The site features a modern design with optimized performance and mobile responsiveness.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag tech">HTML/CSS</span>
+                            <span class="portfolio-tag tech">JavaScript</span>
+                        </div>
+                        <div class="cta">
+                            <a href="https://github.com/ZicUmana/git_test" class="btn btn-code btn-sm" target="_blank" rel="noopener">See Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack" id="tech">
+        <div class="container">
+            <h2 class="section-title">My <span>Tech Stack</span></h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 50px; color: var(--gray);">Technologies and tools I use to build high-performance, conversion-optimized applications.</p>
+            
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fab fa-react"></i></div>
+                    <div class="tech-name">React</div>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fab fa-node-js"></i></div>
+                    <div class="tech-name">Node.js</div>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fab fa-python"></i></div>
+                    <div class="tech-name">Python</div>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fas fa-database"></i></div>
+                    <div class="tech-name">PostgreSQL</div>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="tech-name">Google Analytics</div>
+                </div>
+                
+                
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="tech-name">Performance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Let's Build Something Amazing</h2>
+            <p>Need a full-stack application that's optimized for conversions? Let's discuss your project and how my unique combination of software engineering and conversion expertise can help you achieve your goals.</p>
+            <a href="mailto:umanaisaac@gmail.com" class="btn btn-code">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo"><span class="logo-code">&lt;/&gt;</span> ISAAC <span>U.</span></div>
+                    <p>Software engineer specializing in building high-performance, conversion-optimized applications. I bridge the gap between technical excellence and business results.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ZicUmana"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/isaac-umana100"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/Isaacumana1"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/2348030613994"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                                             
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i><a href="#">Full-Stack Development</a></li>
+                        <li><i class="fas fa-chart-line"></i><a href="#">Conversion Optimization</a></li>
+                        <li><i class="fas fa-rocket"></i><a href="#">Performance Optimization</a></li>
+                        <li><i class="fas fa-flask"></i><a href="#">A/B Testing Implementation</a></li>
+                        <li><i class="fas fa-cogs"></i><a href="#">Technical Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +234 803 061 3994</li>
+                        <li><i class="fas fa-envelope"></i> umanaisaac@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Uyo, Nigeria</li>
+                        <li><i class="fab fa-github"></i>github.com/ZicUmana</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Isaac Stephen Umana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
